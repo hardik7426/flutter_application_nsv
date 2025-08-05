@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_nsv/2207flutter/loginscreen.dart';
 //import "package:flutter_application_nsv/1507flutter/basiccompo.dart";
 //import '2207flutter/calculatorlayout.dart';
 //import 'package:flutter_application_nsv/1507flutter/columnexample.dart';
@@ -16,7 +17,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: SafeArea(
-        child: Stopwatch(),
+        child: LoginScreenPart(),
         ),
       );
   }
